@@ -26,5 +26,31 @@ namespace MegaDeskUWP
         {
             this.InitializeComponent();
         }
+
+        private void newQuoteButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddQuote addQuote = new AddQuote();
+            //addQuoteForm.Show();
+            //this.Hide();
+        }
+
+        private void viewQuotesButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewQuotes viewQuotesForm = new ViewQuotes();
+            //viewQuotesForm.Show();
+            //this.Hide();
+        }
+
+        private void searchQuotesButton_Click(object sender, RoutedEventArgs e)
+        {
+            SearchQuotes searchQuotesForm = new SearchQuotes();
+            //searchQuotesForm.Show();
+            //this.Hide();
+        }
+
+        private void exitButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
